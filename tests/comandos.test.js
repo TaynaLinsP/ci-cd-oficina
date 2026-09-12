@@ -1,4 +1,4 @@
-test("chamado Jest", ()=>{
+test("chamando Jest", ()=>{
     const a=4;
     const b=2;
 

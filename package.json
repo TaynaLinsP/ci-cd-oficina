@@ -1,0 +1,29 @@
+{
+  "name": "ci-cd-oficina",
+  "version": "1.0.0",
+  "description": "Aprendendo automação em testes deploy com projetos",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaynaLinsP/ci-cd-oficina.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TaynaLinsP/ci-cd-oficina/issues"
+  },
+  "homepage": "https://github.com/TaynaLinsP/ci-cd-oficina#readme",
+  "dependencies": {
+    "jest": "^30.5.1"
+  }
+}
